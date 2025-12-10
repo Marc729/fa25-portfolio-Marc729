@@ -4,7 +4,9 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 
-<p><img src="{{ page.image | relative_url }}" alt="{{ page.imagealt }}" class="project-image" /></p>
+{% if page.image and page.show_header_image != false %}
+  <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+{% endif %}
 
 {{ content }}
 

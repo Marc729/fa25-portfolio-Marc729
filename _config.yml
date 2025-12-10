@@ -8,16 +8,16 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : Your Name
+title                    : Marcello Lombardo
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : Your Name
-description              : Your Name - Projects and CV 
-baseurl                  : "" # Set this to your repo name 
+name                     : Marcello Lombardo
+description              : Marcello Lombardo - Projects and CV 
+baseurl                  : "fa25-portfolio-Marc729" # Set this to your repo name 
 
 # Theme and Style
 theme: jekyll-theme-minimal
-color_scheme: light # light/default, dark, or aqua
+color_scheme: dark # light/default, dark, or aqua
 
 sass:
   style: compressed

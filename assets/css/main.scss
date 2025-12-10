@@ -8,3 +8,58 @@ $color_scheme: '{{ site.color_scheme }}';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Merriweather:wght@400;700&display=swap');
 @import "custom";
 
+table.material-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table.material-table th,
+table.material-table td {
+  border: 2px solid white;   /* White borders */
+  padding: 8px;
+}
+
+table.material-table th {
+  font-size: 0.85rem;        /* Smaller header font size */
+  background-color: #797272; /* Optional: light header background */
+}
+
+table.material-table th,
+table.material-table td {
+  text-align: center;   /* Center text in all cells */
+}
+
+.section-divider {
+  border: 0;
+  height: 2px;
+  background: #ccc;   /* light grey */
+  margin-top: 10px;
+  margin-bottom: 15px; 
+}
+
+h1, h2, h3 {
+  margin-top: 75px;   /* increase this number for more space */
+}
+
+.torque-image {
+  display: block;
+  margin: 0 auto 30px;
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;   /* centers the images */
+  gap: 50px;                 /* space between images */
+  flex-wrap: wrap;           /* allows stacking on small screens */
+  margin-bottom: 30px;
+}
+
+.image-row img {
+  max-width: 800px;          /* adjust size here */
+  width: 100%;
+  height: auto;
+  border-radius: 8px;        /* optional */
+}
