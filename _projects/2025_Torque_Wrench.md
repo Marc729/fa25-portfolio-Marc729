@@ -12,7 +12,7 @@ show_header_image: false
 
 <div class="image-row">
   <img src="{{ page.image | relative_url }}" class="torque-image">
-  <img src="/assets/images/Torque_wrench_dimensions.png" class="torque-image">
+  <img src="{{ '/assets/images/Torque_wrench_dimensions.png' | relative_url }}" class="torque-image">
 </div>
 
 *All dimensions are in inches
@@ -37,8 +37,7 @@ Materials with high yield strength performed well against the safety requirement
 
 The CAD model was divided into three separate bodies: the upper drive, the lower drive, and the handle (the lower drive represents the filleted region between the drive and the handle). The upper drive was given a clamped constraint by setting the displacement of all nodes in that body to zero. A force was applied at the end of the handlebar with a magnitude of 40 lbf, based on the rated torque of 600 in-lbf.
 
-![Load & Boundry Conditions](/assets/images/Torque_wrench_load_boundry.png){: .torque-image}
-
+![Load & Boundry Conditions]({{ '/assets/images/Torque_wrench_load_boundry.png' | relative_url }}){: .torque-image}
 
 # Normal Strain 
 <hr class="section-divider">
@@ -46,9 +45,9 @@ The CAD model was divided into three separate bodies: the upper drive, the lower
 The maximum normal strain occurred at the edge between the lower drive and the handle, with a value of 1.965 mε. The analysis also shows a normal strain of 1.164 mε at the strain gauge location.
 
 <div class="image-row">
-  <img src="/assets/images/Torque_wrench_strain.png" class="torque-image">
-  <img src="/assets/images/Torque_wrench_strain1.png" class="torque-image">
-  <img src="/assets/images/Torque_wrench_strain2.png" class="torque-image">
+  <img src="{{ '/assets/images/Torque_wrench_strain.png'  | relative_url }}" class="torque-image">
+  <img src="{{ '/assets/images/Torque_wrench_strain1.png' | relative_url }}" class="torque-image">
+  <img src="{{ '/assets/images/Torque_wrench_strain2.png' | relative_url }}" class="torque-image">
 </div>
 
 # Prinicpal Stress
@@ -56,8 +55,8 @@ The maximum normal strain occurred at the edge between the lower drive and the h
 
 
 <div class="image-row">
-  <img src="/assets/images/Torque_wrench_principlestress.png" class="torque-image">
-  <img src="/assets/images/Torque_wrench_principlestress1.png" class="torque-image">
+  <img src="{{ '/assets/images/Torque_wrench_principlestress.png'  | relative_url }}" class="torque-image">
+  <img src="{{ '/assets/images/Torque_wrench_principlestress1.png' | relative_url }}" class="torque-image">
 </div>
 
 The maximum principle stress occurred at the edge between the lower drive and the handle, with a value of 93.11 ksi. The analysis shows a peak at the interface between the clamped region of the drive and the filleted region; however, this peak is caused by a singularity and is therefore disregarded.
@@ -67,7 +66,7 @@ The maximum principle stress occurred at the edge between the lower drive and th
 
 The analysis showed a load-point deflection of 0.3370 in.
 
-![Load & Boundry Conditions](/assets/images/Torque_wrench_deform.png){: .torque-image}
+![Load & Boundry Conditions]({{ '/assets/images/Torque_wrench_deform.png' | relative_url }}){: .torque-image}
 
 # FEM Calculation Results 
 <hr class="section-divider">
