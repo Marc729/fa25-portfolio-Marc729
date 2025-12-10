@@ -47,7 +47,7 @@ The maximum normal strain occurred at the edge between the lower drive and the h
 <div class="image-row">
   <img src="{{ 'assets/images/Torque_wrench_strain.png'  | relative_url }}" class="torque-image">
   <img src="{{ 'assets/images/Torque_wrench_strain1.png' | relative_url }}" class="torque-image">
-  <img src="{{ '/assets/images/Torque_wrench_strain2.png' | relative_url }}" class="torque-image">
+  <img src="{{ 'assets/images/Torque_wrench_strain2.png' | relative_url }}" class="torque-image">
 </div>
 
 # Prinicpal Stress
@@ -55,8 +55,8 @@ The maximum normal strain occurred at the edge between the lower drive and the h
 
 
 <div class="image-row">
-  <img src="{{ '/assets/images/Torque_wrench_principlestress.png'  | relative_url }}" class="torque-image">
-  <img src="{{ '/assets/images/Torque_wrench_principlestress1.png' | relative_url }}" class="torque-image">
+  <img src="{{ 'assets/images/Torque_wrench_principlestress.png'  | relative_url }}" class="torque-image">
+  <img src="{{ 'assets/images/Torque_wrench_principlestress1.png' | relative_url }}" class="torque-image">
 </div>
 
 The maximum principle stress occurred at the edge between the lower drive and the handle, with a value of 93.11 ksi. The analysis shows a peak at the interface between the clamped region of the drive and the filleted region; however, this peak is caused by a singularity and is therefore disregarded.
@@ -66,7 +66,7 @@ The maximum principle stress occurred at the edge between the lower drive and th
 
 The analysis showed a load-point deflection of 0.3370 in.
 
-![Load & Boundry Conditions]({{ '/assets/images/Torque_wrench_deform.png' | relative_url }}){: .torque-image}
+![Load & Boundry Conditions]({{ 'assets/images/Torque_wrench_deform.png' | relative_url }}){: .torque-image}
 
 # FEM Calculation Results 
 <hr class="section-divider">
