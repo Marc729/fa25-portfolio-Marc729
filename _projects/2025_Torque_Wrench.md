@@ -12,7 +12,7 @@ show_header_image: false
 
 <div class="image-row">
   <img src="{{ page.image | relative_url }}" class="torque-image">
-  <img src="{{ '/assets/images/Torque_wrench_dimensions.png' | relative_url }}" class="torque-image">
+  <img src="{{ 'assets/images/Torque_wrench_dimensions.png' | relative_url }}" class="torque-image">
 </div>
 
 *All dimensions are in inches
@@ -45,8 +45,8 @@ The CAD model was divided into three separate bodies: the upper drive, the lower
 The maximum normal strain occurred at the edge between the lower drive and the handle, with a value of 1.965 mε. The analysis also shows a normal strain of 1.164 mε at the strain gauge location.
 
 <div class="image-row">
-  <img src="{{ '/assets/images/Torque_wrench_strain.png'  | relative_url }}" class="torque-image">
-  <img src="{{ '/assets/images/Torque_wrench_strain1.png' | relative_url }}" class="torque-image">
+  <img src="{{ 'assets/images/Torque_wrench_strain.png'  | relative_url }}" class="torque-image">
+  <img src="{{ 'assets/images/Torque_wrench_strain1.png' | relative_url }}" class="torque-image">
   <img src="{{ '/assets/images/Torque_wrench_strain2.png' | relative_url }}" class="torque-image">
 </div>
 

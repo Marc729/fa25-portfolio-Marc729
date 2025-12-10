@@ -5,7 +5,7 @@ permalink: /cv/
 ---
 ## Curriculum Vitae
 
-[Download my Resume({{ "/assets/resume.pdf" | relative_url }})
+[Download my Resume({{ "assets/resume.pdf" | relative_url }})
 
 
 **Email:** [ml2749@cornell.edu](mailto:netID@cornell.edu) | | | **Phone:** (516) 787-1413
