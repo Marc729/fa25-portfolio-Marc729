@@ -63,3 +63,68 @@ h1, h2, h3 {
   height: auto;
   border-radius: 8px;        /* optional */
 }
+
+.project-title {
+  color: red;
+  text-decoration: underline;
+}
+
+.project-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.gallery-item {
+  width: 200px;           /* adjust card width */
+  height: auto;           /* allow height to grow */
+  overflow: visible;      /* DO NOT clip long text */
+  text-align: center;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.gallery-item p {
+  margin-top: 10px;
+  font-size: 1rem;
+  white-space: normal;    /* allow wrapping */
+  overflow: visible;      /* let text expand */
+  text-overflow: unset;   /* no ellipsis */
+}
+
+.code-scroll {
+  background: #000 !important;
+  border: 5px solid #444;
+  border-radius: 6px;
+  max-height: 300px;
+  overflow-y: auto;
+  overflow-x: auto;
+  padding: 0; /* let pre control padding */
+  margin-bottom: 25px;
+}
+
+/* Rouge wrapper */
+.highlight {
+  background: #000 !important;
+  border-radius: 6px;
+}
+
+/* the <pre> inside */
+.highlight pre {
+  background: transparent !important;
+  border: none !important;
+  margin: 0;
+  padding: 12px;
+}
+
+/* the <code> inside */
+.highlight code {
+  background: transparent !important;
+  color: #eee !important;
+}
+
